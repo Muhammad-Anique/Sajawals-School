@@ -57,12 +57,7 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <img
-        src="/wp-content/plugins/react-checkout-plugin/build/images/saj-logo.png"
-        alt="logo"
-        width={270}
-        height={750}
-      />
+      <img src="/images/saj-logo.png" alt="logo" width={270} height={750} />
       <p className="font-bold font-oswald text-3xl text-primary">
         Lets Connect...
       </p>

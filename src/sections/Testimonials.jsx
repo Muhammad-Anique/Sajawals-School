@@ -45,21 +45,21 @@ const Testimonials = () => {
             >
               {/* Cards are duplicated for seamless scrolling */}
               <div className="flex flex-col gap-4 ">
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test1.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test2.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test3.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test4.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test1.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test2.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test3.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test4.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test1.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test2.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test3.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test1.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test2.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test3.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test4.jpg" />
+                <TestimonialCard image="/images/test1.jpg" />
+                <TestimonialCard image="/images/test2.jpg" />
+                <TestimonialCard image="/images/test3.jpg" />
+                <TestimonialCard image="/images/test4.jpg" />
+                <TestimonialCard image="/images/test1.jpg" />
+                <TestimonialCard image="/images/test2.jpg" />
+                <TestimonialCard image="/images/test3.jpg" />
+                <TestimonialCard image="/images/test4.jpg" />
+                <TestimonialCard image="/images/test1.jpg" />
+                <TestimonialCard image="/images/test2.jpg" />
+                <TestimonialCard image="/images/test3.jpg" />
+                <TestimonialCard image="/images/test1.jpg" />
+                <TestimonialCard image="/images/test2.jpg" />
+                <TestimonialCard image="/images/test3.jpg" />
+                <TestimonialCard image="/images/test4.jpg" />
               </div>
             </div>
             <div
@@ -77,21 +77,21 @@ const Testimonials = () => {
             >
               {/* Cards are duplicated for seamless scrolling */}
               <div className="flex flex-col gap-4 ">
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test3.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test2.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test4.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test1.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test3.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test4.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test2.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test1.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test4.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test3.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test2.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test1.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test4.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test3.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test1.jpg" />
+                <TestimonialCard image="/images/test3.jpg" />
+                <TestimonialCard image="/images/test2.jpg" />
+                <TestimonialCard image="/images/test4.jpg" />
+                <TestimonialCard image="/images/test1.jpg" />
+                <TestimonialCard image="/images/test3.jpg" />
+                <TestimonialCard image="/images/test4.jpg" />
+                <TestimonialCard image="/images/test2.jpg" />
+                <TestimonialCard image="/images/test1.jpg" />
+                <TestimonialCard image="/images/test4.jpg" />
+                <TestimonialCard image="/images/test3.jpg" />
+                <TestimonialCard image="/images/test2.jpg" />
+                <TestimonialCard image="/images/test1.jpg" />
+                <TestimonialCard image="/images/test4.jpg" />
+                <TestimonialCard image="/images/test3.jpg" />
+                <TestimonialCard image="/images/test1.jpg" />
               </div>
             </div>
             <div
@@ -109,21 +109,21 @@ const Testimonials = () => {
             >
               {/* Cards are duplicated for seamless scrolling */}
               <div className="flex flex-col gap-4 ">
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test1.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test2.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test3.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test4.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test1.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test2.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test3.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test4.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test1.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test2.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test3.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test4.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test1.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test2.jpg" />
-                <TestimonialCard image="/wp-content/plugins/react-checkout-plugin/build/images/test3.jpg" />
+                <TestimonialCard image="/images/test1.jpg" />
+                <TestimonialCard image="/images/test2.jpg" />
+                <TestimonialCard image="/images/test3.jpg" />
+                <TestimonialCard image="/images/test4.jpg" />
+                <TestimonialCard image="/images/test1.jpg" />
+                <TestimonialCard image="/images/test2.jpg" />
+                <TestimonialCard image="/images/test3.jpg" />
+                <TestimonialCard image="/images/test4.jpg" />
+                <TestimonialCard image="/images/test1.jpg" />
+                <TestimonialCard image="/images/test2.jpg" />
+                <TestimonialCard image="/images/test3.jpg" />
+                <TestimonialCard image="/images/test4.jpg" />
+                <TestimonialCard image="/images/test1.jpg" />
+                <TestimonialCard image="/images/test2.jpg" />
+                <TestimonialCard image="/images/test3.jpg" />
               </div>
             </div>
           </div>

@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
         <a href="/" className="flex items-center border-none  ">
           <img
-            src="/wp-content/plugins/react-checkout-plugin/build/images/saj-logo.png"
+            src="/images/saj-logo.png"
             alt="Logo-Type"
             width={182}
             height={24}
