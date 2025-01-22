@@ -4,7 +4,7 @@ export const plans = [
     name: "Easypaisa ",
     priceMonthly: 9,
     priceYearly: 90,
-    img: "https://sajawal.school/images/easypaisa.png",
+    img: "/images/easypaisa.png",
   },
 
   //  { id:3, name: 'Jazzcash ', priceMonthly: 12, priceYearly: 120, img: 'comingsoon.png' },
@@ -13,6 +13,6 @@ export const plans = [
     name: "Card Payments",
     priceMonthly: 15,
     priceYearly: 150,
-    img: "https://sajawal.school/images/card.png",
+    img: "/images/card.png",
   },
 ];
