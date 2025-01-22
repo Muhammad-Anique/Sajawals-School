@@ -13,15 +13,15 @@ const Plans = () => {
   ];
 
   return (
-    <section className="flex items-center justify-center py-16 ">
-      <div className="w-full flex flex-col items-center justify-center gap-16">
+    <section className="flex items-center justify-centerpy-8 md:py-10 lg:py-16 ">
+      <div className="w-full flex flex-col items-center justify-center gap-8 md:gap-16">
         <h1 className="font-oswald text-center font-extrabold text-black text-3xl lg:text-5xl">
           JUST WITHIN THE{" "}
           <span className="text-secondary">NEXT 5 MINUTES…</span> <br /> THIS IS
           WHAT YOU'RE GETTING 👀
         </h1>
-        <div className="flex lg:flex-row flex-col  items-center justify-center gap-6">
-          <div className="rounded-xl w-full max-w-[400px] md:max-w-[500px] lg:max-w-[600px] p-6 h-auto lg:h-[550px] shadow-xl flex gap-6 flex-col items-center justify-start">
+        <div className="flex lg:flex-row flex-col  items-center justify-center gap-6 px-4">
+          <div className="rounded-xl w-full max-w-[400px] border border-gray-100 md:max-w-[500px] lg:max-w-[600px] p-6 h-auto lg:h-[550px] shadow-xl flex gap-6 flex-col items-center justify-start">
             <div className="flex flex-col text-center w-full border-b-2 py-6 items-center justify-center border-dotted border-secondary">
               <h1 className="text-secondary font-oswald font-extrabold text-2xl lg:text-3xl">
                 10+ Weeks of Content
@@ -44,13 +44,13 @@ const Plans = () => {
               to boost your online earning potential.
             </i>
           </div>
-          <div className="rounded-xl w-full max-w-[400px] md:max-w-[500px] lg:max-w-[600px] p-6 h-auto lg:h-[550px]  shadow-xl flex gap-6 flex-col items-center justify-start">
+          <div className="rounded-xl w-full max-w-[400px] border border-gray-100  md:max-w-[500px] lg:max-w-[600px] p-6 h-auto lg:h-[550px]  shadow-xl flex gap-6 flex-col items-center justify-start">
             <div className="flex flex-col text-center w-full border-b-2 py-6 items-center justify-center border-dotted border-secondary">
               <h1 className="text-secondary font-oswald font-extrabold text-2xl lg:text-3xl">
-                10+ Weeks of Content
+                5+ Exclusive Bonuses
               </h1>
               <p className="font-normal font-oswald text-xl lg:text-2xl mt-2 text-zinc-800 ">
-                {"(VALUE: Rs 80,000+)"}
+                {"(VALUE: Rs 50,000+)"}
               </p>
             </div>
 

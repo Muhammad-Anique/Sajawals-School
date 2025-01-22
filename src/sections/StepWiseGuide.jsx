@@ -23,12 +23,12 @@ const Bubble = ({ title, index }) => {
 
 const StepWiseGuide = () => {
   return (
-    <div className="flex max-w-screen-xl flex-row py-6 items-start justify-center gap-10 md:gap-8 mt-8">
+    <div className="flex max-w-screen-xl flex-row flex-wrap py-6 items-start justify-center gap-6 md:gap-8 mt-8">
       <Bubble title="Fill the form" index="1" />
       <Line />
       <Bubble title="Choose Payment Method" index="2" />
       <Line />
-      <Bubble title="Enter OTP" index="3" />
+      <Bubble title="Verify Transaction" index="3" />
       <Line />
       <Bubble title="Get Access" index="4" />
     </div>

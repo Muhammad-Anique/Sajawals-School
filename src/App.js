@@ -32,10 +32,12 @@ import {
   verifyOTP,
   initiateSafepay,
 } from "../src/utils/simpaisaApi";
+import Whatsapp from "./sections/Whatsapp";
 // App component
 export default function App() {
   return (
     <>
+      <Whatsapp />
       <div className="mt-[100px] flex flex-col items-center justify-center gap-10">
         <Navbar />
         <StepWiseGuide />
@@ -54,7 +56,7 @@ export default function App() {
 }
 
 const Form = () => {
-  const [timeLeft, setTimeLeft] = useState(30);
+  const [timeLeft, setTimeLeft] = useState(60);
   const [step, setStep] = useState(1);
   const [selectedPlan, setSelectedPlan] = useState(null);
   const [isChecked, setIsChecked] = useState(false);
@@ -105,7 +107,7 @@ const Form = () => {
   }
 
   async function handleInitiateTransaction() {
-    setTimeLeft(30);
+    setTimeLeft(60);
     try {
       setIsLoading(true);
       const data = await initiateTransaction({
@@ -330,7 +332,7 @@ const Form = () => {
 
   return (
     <div id="react-checkout" className="relative">
-      <div className="bg-secondary rounded-xl h-[150px] md:hidden w-[90%] max-w-[380px] mx-auto translate-y-32 -z-10 pt-8 flex flex-row  justify-center ">
+      <div className="bg-secondary rounded-xl h-[100px] md:hidden w-[90%] max-w-[380px] mx-auto translate-y-24 -z-10 pt-8 flex flex-row  justify-center ">
         <div className="flex  w-auto gap-6 flex-row items-start justify-start">
           {!isLoading &&
             data.map((item) => (
@@ -386,13 +388,15 @@ const Form = () => {
                 />
               )}
 
-              {/* {step === 3 && <PickAddOns
-            AddOnsList={AddOnsList}
-            setAddOnsList={setAddOnsList}
-            PickAddOnsList={PickAddOnsList}
-            toggleSelected={toggleSelected}
-            isChecked={isChecked}
-          />} */}
+              {/* {step === 3 && (
+                <PickAddOns
+                  AddOnsList={AddOnsList}
+                  setAddOnsList={setAddOnsList}
+                  PickAddOnsList={PickAddOnsList}
+                  toggleSelected={toggleSelected}
+                  isChecked={isChecked}
+                />
+              )} */}
 
               {step === 3 && (
                 <EnterOTP

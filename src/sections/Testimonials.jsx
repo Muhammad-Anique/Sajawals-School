@@ -3,7 +3,7 @@ import "../index.css";
 
 const TestimonialCard = ({ image }) => {
   return (
-    <div className="w-full min-w-[300px] md:min-w-[400px] xl:min-w-[350px]  relative p-3 rounded-lg bg-black">
+    <div className="w-full min-w-[120px] lg:min-w-[300px] md:min-w-[400px] xl:min-w-[350px]  relative p-3 rounded-lg bg-black">
       <img
         src={image}
         alt="testimonial"
@@ -18,7 +18,7 @@ const TestimonialCard = ({ image }) => {
 
 const Testimonials = () => {
   return (
-    <section className="w-full max-w-screen-2xl relative flex flex-col items-center justify-center py-32 px-5 md:px-7 lg:px-10">
+    <section className="w-full max-w-screen-2xl relative flex flex-col items-center justify-center py-8 md:py-10 lg:py-32 px-5 md:px-7 lg:px-10">
       <div className="w-full items-center justify-center flex flex-col gap-10">
         <div className="flex flex-col items-center justify-center gap-3">
           <p className="text-primary font-oswald text-2xl text-center lg:text-3xl">{`"REAL" TESTIMONIALS`}</p>
@@ -29,10 +29,10 @@ const Testimonials = () => {
         </div>
         <div className="relative w-full max-w-screen-xl h-[800px] overflow-hidden group">
           <div className="bg-gradient-to-b from-white absolute z-10 via-white/0 to-white/0 h-[200px] w-full"></div>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
+          <div className="grid grid-cols-2 xl:grid-cols-3 gap-2 md:gap-4 lg:gap-10">
             <div
               id="animation-cont"
-              className="relative flex flex-col gap-4"
+              className="relative flex flex-col gap-4 "
               style={{
                 animation: "scroll 120s linear infinite",
               }}
@@ -44,7 +44,7 @@ const Testimonials = () => {
               }
             >
               {/* Cards are duplicated for seamless scrolling */}
-              <div className="flex flex-col gap-4 ">
+              <div className="flex flex-col gap-2 md:gap-4  ">
                 <TestimonialCard image="/images/test1.jpg" />
                 <TestimonialCard image="/images/test2.jpg" />
                 <TestimonialCard image="/images/test3.jpg" />
@@ -76,7 +76,7 @@ const Testimonials = () => {
               }
             >
               {/* Cards are duplicated for seamless scrolling */}
-              <div className="flex flex-col gap-4 ">
+              <div className="flex flex-col  gap-2 md:gap-4">
                 <TestimonialCard image="/images/test3.jpg" />
                 <TestimonialCard image="/images/test2.jpg" />
                 <TestimonialCard image="/images/test4.jpg" />
@@ -108,7 +108,7 @@ const Testimonials = () => {
               }
             >
               {/* Cards are duplicated for seamless scrolling */}
-              <div className="flex flex-col gap-4 ">
+              <div className="flex flex-col gap-2 md:gap-4 ">
                 <TestimonialCard image="/images/test1.jpg" />
                 <TestimonialCard image="/images/test2.jpg" />
                 <TestimonialCard image="/images/test3.jpg" />
