@@ -9,7 +9,7 @@ export default function Step({ curstep, step }) {
     //     <p>STEP {curstep}</p>
     //     <h4>{curstep === 1 && "Your Info"}</h4>
     //     <h4>{curstep === 2 && "Payment Method"}</h4>
-    //     <h4>{curstep === 3 && "Enter OTP"}</h4>
+    //     <h4>{curstep === 3 && "Verify Transaction"}</h4>
     //     <h4>{curstep === 4 && "Confirm"}</h4>
     //     <h4>{curstep === 5 && "Completed"}</h4>
     //   </div>
@@ -28,7 +28,7 @@ export default function Step({ curstep, step }) {
         <p>STEP {curstep}</p>
         <h4 className="font-bold">{curstep === 1 && "Your Info"}</h4>
         <h4 className="font-bold">{curstep === 2 && "Payment Method"}</h4>
-        <h4 className="font-bold">{curstep === 3 && "Enter OTP"}</h4>
+        <h4 className="font-bold">{curstep === 3 && "Verify Transaction"}</h4>
         <h4 className="font-bold">{curstep === 4 && "Confirm"}</h4>
         <h4 className="font-bold">{curstep === 5 && "Completed"}</h4>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const DiscountBanner = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-5 md:px-10 lg:px-16">
+    <div className="flex flex-col items-center justify-center translate-y-4 lg:translate-y-0 px-5 md:px-10 lg:px-16">
       <p className="font-oswald font-medium text-zinc-8000 text-lg lg:text-xl ">
         NORMALLY: RS. <span className="line-through">85,000 ONE-TIME</span>
       </p>
